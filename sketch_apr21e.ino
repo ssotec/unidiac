@@ -114,7 +114,7 @@ void setup() {
   clearEEPROM(EEPROM_ADDR_3);
 
   // Write text to EEPROMs
-  const char* textToWrite = "soontorn srisoontorn";
+  const char* textToWrite = "your name";
   int startAddr = 0x0010;
   writeTextToEEPROM(textToWrite, startAddr, EEPROM_ADDR_1);
   //writeTextToEEPROM(textToWrite, startAddr, EEPROM_ADDR_2);
